@@ -1,0 +1,129 @@
+/* body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #f0f4f8;
+  width: 100%;
+}
+
+.header-title {
+  flex-grow: 1;
+  color: black;
+  font-size: 60px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.home-desktop-menu, .home-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.bodySmall, .header-links a, .homepage-button {
+  font-size: 16px;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.bodySmall:hover, .header-links a:hover, .homepage-button:hover {
+  color: #0056b3;
+}
+
+
+
+.username-field, .password-field {
+  margin-bottom: 20px;
+}
+
+.username-field input, .password-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+} */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f7;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+}
+
+.login-form {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between form elements */
+  width: 100%;
+  max-width: 400px; /* Adjust width as necessary */
+}
+
+.form-field input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+
+.buttonFilled {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  font-size: 18px;
+}
+
+.buttonFilled:hover {
+  background-color: #0056b3; /* Darker shade for button background on hover */
+}

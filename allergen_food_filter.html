@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat Unique - Your Recipe Generator</title>
+    <link rel="stylesheet" href="filter.css"> 
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Eat Unique</h1>
+        <div data-thq="thq-navbar-nav" class="home-desktop-menu">
+            <nav class="home-links">
+                <span class="home-nav22 bodySmall">Recipes</span>
+                <span class="home-nav32 bodySmall">Cookbook</span>
+                <span class="home-nav42 bodySmall">About Us</span>
+            </nav>
+        </div>
+        <div class="header-links">
+            <a href="login_page.html">Login</a> | <a href="create_account.html">Create Account</a>
+        </div>
+    </header>
+    <section id="meal-prep-preferences">
+        <h2>Tailor Your Meal Preferences</h2>
+        <form id="preferences-form">
+            <fieldset>
+                <legend>Dietary Preferences</legend>
+                <label><input type="checkbox" name="diet" value="vegetarian"> Vegetarian</label>
+                <label><input type="checkbox" name="diet" value="vegan"> Vegan</label>
+                <label><input type="checkbox" name="diet" value="gluten-free"> Gluten-Free</label>
+                <label><input type="checkbox" name="diet" value="keto"> Keto</label>
+                <label><input type="checkbox" name="diet" value="paleo"> Paleo</label>
+            </fieldset>
+            <fieldset>
+                <legend>Allergies</legend>
+                <label><input type="checkbox" name="allergy" value="nuts"> Nuts</label>
+                <label><input type="checkbox" name="allergy" value="dairy"> Dairy</label>
+                <label><input type="checkbox" name="allergy" value="shellfish"> Shellfish</label>
+                <label><input type="checkbox" name="allergy" value="soy"> Soy</label>
+            </fieldset>
+            <button type="submit">Find Recipes</button>
+        </form>
+    </section>
+</body>
+</html>

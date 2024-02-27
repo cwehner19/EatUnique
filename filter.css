@@ -1,0 +1,80 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7; /* Background color for the entire page */
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-title {
+    color: #333;
+    font-size: 24px;
+    text-align: left;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-desktop-menu, .header-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px;
+}
+
+.home-desktop-menu a:hover, .header-links a:hover {
+    color: #0056b3;
+}
+
+#meal-prep-preferences {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+fieldset {
+    border: none;
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin: 15px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
