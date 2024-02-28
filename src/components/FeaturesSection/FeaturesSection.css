@@ -1,0 +1,37 @@
+.features-section {
+  padding: 60px 0;
+  background-color: #f9f9f9; /* Or any background color you prefer */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.feature-item {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px; /* Optional */
+}
+
+.feature-item img {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.feature-item h3 {
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 16px; /* Adjust as needed */
+}

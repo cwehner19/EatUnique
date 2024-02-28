@@ -1,0 +1,40 @@
+/* HeroSection.css */
+.home-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px; /* Increased padding for more vertical space */
+  background-color: #eaeaea;
+}
+
+.heroContainer {
+  text-align: center;
+}
+
+.home-hero-heading {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 20px; /* Add space below the heading */
+}
+
+.home-hero-sub-heading {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 30px; /* Increased space below the sub-heading for separation */
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Adds space above the button for more separation */
+}
+
+.button-link:hover {
+  background-color: #0056b3;
+}
