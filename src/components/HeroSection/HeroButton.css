@@ -1,0 +1,21 @@
+.hero-button {
+    width: calc(10vw + 50px);
+    height: calc(2vw + 20px);
+    border-radius: 7px;
+    background-color:#007bff;
+    color: #333;
+    font-size: calc(0.8vw + 10px);
+    text-align: center;
+    line-height: calc(2vw + 20px);
+    padding-left: 10px;
+  }
+
+  .hero-button a {
+    color: #333;
+    text-decoration: none;
+    font-size: calc(0.8 vw + 10px);
+  }
+  
+  .hero-button a:hover {
+    color: #eaeaea;
+  }
