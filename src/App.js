@@ -1,19 +1,36 @@
 import React from 'react';
-import Header from './components/Header/Header.js'; // Relative path from App.js to Header.js
-import HeroSection from './components/HeroSection/HeroSection.js'; // Relative path from App.js to HeroSection.js
-import FeaturesSection from './components/FeaturesSection/FeaturesSection.js'; // Already correct
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header/Header.js';
+import HeroSection from './components/HeroSection/HeroSection.js';
+import FeaturesSection from './components/FeaturesSection/FeaturesSection.js';
+import PreferencesForm from './components/PreferencesForm/PreferencesForm.js';
+import LoginPage from './components/LoginPage/LoginPage';
 import './App.css';
+
+function HomePage() {
+  return (
+    <>
+      <HeroSection />
+      <FeaturesSection />
+    </>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <main>
-        <HeroSection />
-        <FeaturesSection />
-        {/* Add more components as needed */}
-      </main>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <main>
+          <Routes>
+            {/* Define routes for home, preferences, login, and account creation */}
+            <Route path="/" element={<HomePage />} />
+            <Route path="/preferences" element={<PreferencesForm />} />
+            <Route path="/login" element={<LoginPage />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
   );
 }
 
